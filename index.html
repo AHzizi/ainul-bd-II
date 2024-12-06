@@ -387,18 +387,27 @@
       box-shadow: rgba(255, 255, 255, 0.15) 0px 7px 29px 0px;
       z-index: 1;
     }
-
     footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
+    color: #fff; /* Default text color */
+    padding: 10px 0; /* Padding for spacing */
+    z-index: 2; /* Bring footer to the front */
 }
 
 footer a {
-    color: rgba(255, 255, 255, 0.875); /* Warna putih dengan transparansi */
-    text-decoration: none; /* Menghapus garis bawah */
+    color: rgba(255, 255, 255, 0.875); /* Semi-transparent white */
+    text-decoration: none; /* No underline by default */
+    transition: color 0.3s ease; /* Smooth color transition */
 }
+
+footer a:hover {
+    color: #fff; /* Bright white on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
     /* ... */
   </style>
 </head>
@@ -607,7 +616,9 @@ footer a {
   </script>
 
 <footer>
-  <a href="https://www.instagram.com/ainul_marifah013/">For Ainul Ma'rifah </a><br>Made With Love❤️ <br><a href="http://ahzizi.my.id">By Miftakul Azizi</a>
+  <a href="https://www.instagram.com/ainul_marifah013/">For Ainul Ma'rifah</a><br>
+  Made With Love❤️<br>
+  <a href="http://ahzizi.my.id">By Miftakul Azizi</a>
 </footer>
 </body>
 
