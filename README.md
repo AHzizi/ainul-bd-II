@@ -1,7 +1,7 @@
 HI HELLO WORLD
 
-ainulmarifah.my.id
+https://ainulmarifah.my.id
 
 ------------------------
 
-ahzizi.my.id
+https://ahzizi.my.id
